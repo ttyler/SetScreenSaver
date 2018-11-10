@@ -6,11 +6,11 @@ A quick an d dirty way of configuring a group of Macs for accessing a directory 
 Usually deployed with or after a package of images. If using Jamf PRO, a smart group checking for the folder path, or even an extension Attribute. Something like the following;
 
 #!/bin/bash
-if [ -d "<mydirectory> ];then
-echo "<result>yes</result>"
-else
-echo "<result>no</result>"
-fi
+if [ -d "<mydirectory> ];then<br>
+echo "\<result\>yes\</result\>"<br>
+else<br>
+echo "\<result\>no\</result\>"<br>
+fi<br>
 
 If you are not using Jamf PRo the script may still be useful, but may prevent the script from running if your computer does not have the folder.
 
